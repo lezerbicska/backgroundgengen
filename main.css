@@ -1,0 +1,67 @@
+body{
+    display:flex;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height:180%;
+    background-image: url("https://i.etsystatic.com/26444081/r/il/c3b36d/4053188579/il_fullxfull.4053188579_c1lf.jpg");
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+p {
+    line-height: 1.5;
+    margin: 1em 0;
+}
+
+#first {
+    font-weight: 100px;
+    font-size: 28px;
+}
+
+#second{
+    font-weight: 100px;
+    font-size:22px;
+    font-style: italic;
+}
+
+#third{
+    font-weight: 600;
+    font-size:1.25rem;
+}
+
+.u-img{
+    position: relative;
+    background-image: url("https://faroutmagazine.co.uk/static/uploads/1/2022/03/Viggo-Mortensen-once-deflected-a-real-knife-in-The-Lord-of-the-Rings.jpg");
+    width: 50%;
+    height: 500px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    background-position-x: 50px;
+}
+
+
+#zeroIn{
+    max-height:350px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+}
+
+.u-backgrnd{
+    background: rgb(27,15,38);
+    background: radial-gradient(circle, rgba(27,15,38,1) 35%, rgba(255,154,60,1) 41%, rgba(2,0,36,1) 81%);
+}
